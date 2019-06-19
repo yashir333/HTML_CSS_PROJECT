@@ -1,0 +1,262 @@
+body{ margin:0px;
+text-align:center;
+	
+}
+
+header{
+	text-align: center; 
+	width:100%; 
+	background-image:url(waves1.png); 
+	background-size:cover;
+	padding-top:735px;
+	padding-bottom:;
+	animation-name: Oani;
+	animation-duration:2S;
+	animation-iteration-count:1;
+	animation-timing-function:ease;
+	animation-direction:;
+	position:static;
+	z-index:+1;
+	box-shadow:0px 5px 10px gray;
+
+
+	
+}
+
+#tab1 {width:100%;
+	position:absolute;
+	top:190px;
+	
+}
+
+#tab2 {width:100%;
+	position:absolute;
+	top:200px;
+	
+}
+
+#olam{
+	animation-name: Oani;
+	animation-duration:4.5S;
+	animation-iteration-count:1;
+	animation-timing-function:ease;
+	animation-direction:;
+	animation-delay:;
+	
+}
+
+#paint{
+	--position:absolute;
+	--top:195px;
+	--left:520px;
+	margin-top:-300px;
+	margin-left:20px;
+	width:540px;
+	opacity:1;
+	animation-name: Oani2;
+	animation-duration:1.5S;
+	animation-iteration-count:1;
+	animation-timing-function:ease;
+	animation-direction:;
+	animation-delay:;
+	
+}
+#arrow{
+	width:12%;
+	opacity:0;
+	margin-top:15px;
+	animation-name: Oani3;
+	animation-duration:1S;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease-in;
+	animation-delay:2s;
+	
+}
+#arrow:hover{
+	cursor:pointer;
+	
+}
+@keyframes Oani{
+	0%{opacity:0;}
+	100%{opacity:1;}
+	
+}
+@keyframes Oani3{
+	0%{opacity:0;}
+	50%{opacity:0.5;}
+	100%{opacity:0;}
+}
+
+@keyframes Oani2{
+	0%{opacity:0; 
+	transform: scale(2) rotate(30deg);
+	;
+	}
+	
+	
+	}
+	100%{opacity:1;
+	transform: scale(1.2) rotate(0deg);
+	}
+	
+	
+	
+}
+@keyframes BACKani{
+	0%{background-image:url("waves1.png");}
+	50%{background-image:url("waves3.png");}
+	100%{background-image:url("waves1.png");}
+
+	
+}
+
+#who{padding: 130px 0px 130px 0px;
+	background-color:#fcf6e7;
+	background-image:url(".png");
+	position:static;
+	z-index:-1;
+	
+}
+
+
+#pwho {
+	width: 40%;
+	
+}
+#about{	font-family:tahoma;
+	font-size:30px;
+	color: purple ;
+	margin:50px 160px 50px 160px;
+	
+	
+}
+#sec1 {
+	padding-top:30px;
+	background-image: url("pink.png");
+	background-size: ;
+	position:static;
+	z-index:+1;
+	box-shadow:0px -5px 10px gray;
+
+
+}
+#tit{
+	width:35%;
+	margin-bottom:45px;
+	transform: rotate(270deg);
+	position:absolute;
+	top:1750px;
+	left:-150px;
+	
+}
+#p1,#p2,#p3 {
+	
+	display:inline-block;
+	width:18%;
+	padding:30px 0px 30px 0px;
+	margin: 0px 20px 30px 20px;
+	background:linear-gradient(white,white,white,white,white,white,white, white,white,white,white,white,white, #760ca1);
+	border-left: 0.5px solid lightgray;
+	height:100%;
+}
+
+#p1{
+width:25%;	
+	background:linear-gradient(#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#f7f9d2,#99a901);
+	
+}
+
+#p2{
+	background:linear-gradient(white,white,white,white,white,white,white, white,white,white,white,white,white,#2ba098);	
+}
+#p3{
+	background:linear-gradient(white,white,white,white,white,white,white, white,white,white,white,white,white,#f7941d);	
+}
+#p1 img,#p2 img,#p3 img {
+	width:100%;} 
+
+#p1a, #p1b, #p1c{
+	font-family:tahoma;
+	font-size:16px;
+	margin:0px 40px 0px 40px;;
+	text-align:center;
+	margin:;
+	background-color:;
+	padding:20px;
+}
+#p1a{ font-size:18px;}
+
+.but{
+	padding:20px 30px 20px 30px;
+	background-color:white;
+	font-size:20px;
+	color: gray;
+	margin-top:35px;
+	border-radius:10px;
+}
+.but:hover{
+	cursor:pointer;
+	
+}
+
+#sec2{
+	text-align:right;
+	padding-bottom:250px;
+	padding-top:150px;
+	<--background-color:#de4c96;
+	background-image: url("puzzle2.png");
+	background-size:cover;
+}
+
+.input {
+	padding:10px 180px 10px 180px;
+	background-color:white;
+	font-size:20px;
+	color: gray;
+	border-radius:10px;
+	margin-top:15px;
+	margin-right:50px;
+	text-align:center;
+}
+#tit2 {
+	font-family:tahoma;
+	font-size:45px;
+	font-weight:bold;
+	color: #ffeee8;
+	margin:0px 40px 0px 0px;
+	text-shadow: 2.5px 2.5px 10px gray;
+
+	
+}
+
+#which{
+	font-family:tahoma;
+	font-size:30px;
+	color: ;
+	margin:50px 160px 0px 0px;
+}
+
+.check{
+	transform: scale(1.5);
+	margin-left:10px;
+	margin-right:20px;	
+}
+ #pack {
+	padding:px;
+	font-family:tahoma;
+	font-size:20px;
+	color: ;
+	text-align:right;
+	margin:50px 60px 0px 10px;	
+ }
+ #but2{
+ 
+
+ 	padding:5px 30px 5px 30px;
+	background-color:white;
+	font-size:20px;
+	color: gray;
+	margin-top:5px;
+	margin-right: 300px;
+	border-radius:10px;
+ }

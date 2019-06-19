@@ -1,0 +1,107 @@
+@media screen and (max-width: 1300px){
+#sec1{
+	text-align:center;
+
+	
+}	
+#sec2 {
+background-image:url("puz3.png");
+padding-bottom:60px;
+}	
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1080px){
+#sec1{
+	text-align:center;
+	background-image:none;
+	background-color:lightpink;	
+}	
+#sec2 {
+
+padding-bottom:60px;
+}	
+
+
+#p1,#p2,#p3 {
+	
+	display:;
+	width:50%;
+	
+	
+}
+
+
+
+#tit{
+	width:50%;
+	margin:45px;
+	transform: rotate(0deg);
+	position:static;
+	
+	
+}
+}
+@media screen and (max-width: 750px){
+#olam{
+	
+	width:440px;
+}
+#paint{
+	
+	width:380px;
+}
+#sec2 {
+	background-image:url("puz2.png");	
+}	
+#p1,#p2,#p3 {
+	
+	width:90%;
+	
+	
+	
+}
+#pwho {
+	width: 80%;
+	
+}
+#about{
+	margin:50px 60px 50px 60px;
+}
+#tit{
+	width:80%;
+}
+#sec2{
+	text-align:center;
+}	
+#tit2{
+text-align:center;
+	
+}	
+#which{
+		margin-right:0px;
+	
+}
+.input{
+	padding-left:10px;
+	padding-right:10px;
+	margin-right:0px;
+
+}
+#pack{
+margin-right:2px;	
+}
+#map{
+width:80%;
+
+}	
+#but2{
+	margin-right:0px;
+}
+}
+

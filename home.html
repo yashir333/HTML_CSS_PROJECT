@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "utf-8"/>
+
+	<link rel="stylesheet" href="css1.css"/>	
+	<link rel="stylesheet" href="css2.css"/>	
+<script src="jquery-ui.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../_assets/js/index.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+<!script src="jquery.mobile-1.4.5.js"><!/script>
+  <script>
+	$(document).ready(function(){
+		$("#arrow").click(function(){
+			$("html").animate({scrollTop: 700  },1000);
+
+		});
+	});
+  
+  </script>
+
+</head>
+
+
+<body dir="rtl">
+
+	<header id="header">
+		<table id="tab1">
+		<tr><td></td>
+		<td><img id="olam" src="olam.png"><br><img id="paint" src="paint.png"><br><a href="#who"><img id="arrow" src="arrow.png"></a></td>
+		<td></td>
+		</tr>
+		</table>
+		<img src="help.png" style="width:50px; position:fixed; top:300px; z-index:+3; left:0px; box-shadow:0px 0px 10px;"/>
+	
+	</header>
+	
+	<section id="who">
+		<img id="pwho" src="who.png">
+		<div id="about">"עולם הצבע והעיצוב" הינה חברת גרפיקה שנפתחה לפני כעשור על מנת לספק את הצורך המתעדכן והמשתדרג בשירותי גרפיקה מתקדמים. החברה שמה לה כמטרה הצעת עבודות גרפיקה כוללות, בדגש על מיתוג חברות ובניית אתרים מהמסד עד הטפחות. אנו מציעים חבילות משתלמות במחירים הוגנים, תוך התחייבות לליווי הלקוחות שלנו בהמשך הדרך. בואו והתרשמו!</div>
+	
+	</section>
+
+	<section id="sec1">
+		<img id="tit" src="title1.png"/>
+		<br>
+		<div id="p3">
+		<img src="paint3.png"/>
+		<div id="p1c">מיתוג העסק מחדש בשפה עיצובית חדשה ועדכנית. לא תכיר את העסק שלך!</div>
+		<button class="but">לפרטים לחץ כאן</button>
+		</div>	
+		<div id="p1">
+		<img src="paint1.png"/>	
+		<div id="p1a">החבילה המושלמת לעסק שלך! מיתוג מחדש כולל לוגו ושפה עיצובית חדשה ומותאמת. בנוסף נבנה לך אתר מושקע ועדכני שידבר ישר ללב הלקוחות שלך!</div>
+		<button class="but">לפרטים לחץ כאן</button>
+		</div>
+		<div id="p2">
+		<img src="paint2.png"/>	
+		<div id="p1b">אנחנו נבנה לך אתר חדש ועדכני, מהמסד ועד הטפחות. האתר מושקע, עדכני ומותאם לצרכיך</div>
+		<button class="but">לפרטים לחץ כאן</button>
+		</div>
+
+
+	</section>
+
+	<section id="sec2">
+		<div id="tit2">אז בא נוסיף צבע לחיים שלך...</div>
+		<div id="which">באיזו חבילה אתה בוחר?</div>
+		<form>
+			<div id="pack">
+			<input class="check" name="pack" type="radio">החבילה הכוללת
+			<input class="check" name="pack" type="radio">חבילת המיתוג
+			<input class="check" name="pack" type="radio">חבילת האתר
+			
+			</div>
+			<br>
+			<input class="input" type="email" placeholder="דואר אלקטרוני">
+
+		
+		</form>
+		<br>
+			<button id="but2">שלח</button>	
+	</section>
+	<footer style="background-color:white; text-align:center;  padding:20px">
+			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.5607222174513!2d35.230825884842915!3d31.782464981283724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x150329c5a0c7e6a7%3A0x7f96cc5a7fc36c04!2zOCDXlNeg15HXmdeQ15nXnSwg15nXqNeV16nXnNeZ150!5e0!3m2!1siw!2sil!4v1508782056361" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<h3 style="font-family:tahoma">כתובתנו: שטראוס 5 ירושלים</h3>
+			<h3 style="font-family:tahoma">צור קשר במייל: olamcolor@olam.com</h3>
+			<br>
+			<a href="#header"> <h6 style="font-family:tahoma; background-color:gray; padding:10px">חזור למעלה</h6></a>
+			
+	</footer>
+		
+</body>
+
+
+
+
+</html>
